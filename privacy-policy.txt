@@ -6,7 +6,7 @@ All operational data, including status checks, integrity logs, and incognito acc
 
 The extensions do not connect to any external servers, and no information is shared with third parties.
 
-Permissions such as idle, storage, as well as isAllowedIncognitoAccess and onMessageExternal are used strictly for:
+Permissions such as idle and storage are used strictly for:
 – monitoring the operational status of Web Gatekeeper;
 – detecting incognito access changes for system integrity;
 – and maintaining local synchronization between both extensions.
