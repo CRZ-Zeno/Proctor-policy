@@ -1,0 +1,16 @@
+Effective Date: October 8th, 2025.
+
+Proctor and its companion extension Web Gatekeeper do not collect, store, or transmit any personal data outside the user’s device.
+
+All operational data, including status checks, integrity logs, and incognito access states, is stored locally using Chrome’s storage.local API.
+
+The extensions do not connect to any external servers, and no information is shared with third parties.
+
+Permissions such as idle, storage, as well as isAllowedIncognitoAccess and onMessageExternal are used strictly for:
+– monitoring the operational status of Web Gatekeeper;
+– detecting incognito access changes for system integrity;
+– and maintaining local synchronization between both extensions.
+
+By installing this extension, you acknowledge that no personal information leaves your browser, and all processing remains within your local Chrome environment.
+
+Developer Contact: maikimanhdc@gmail.com
